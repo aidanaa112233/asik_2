@@ -7,7 +7,6 @@ body {
     line-height: 1.6;
 }
 
-/* TASK 1: Flexbox Навигация */
 #main-header {
     background-color: #ff6600;
     padding: 15px 30px;
@@ -59,7 +58,6 @@ h1, h2 {
     border: 3px solid #ff6600;
 }
 
-/* TASK 2: Flexbox Карточкалар (Бірдей биіктік пен Hover эффектісі) */
 .card-container {
     display: flex;
     gap: 20px;
@@ -107,7 +105,6 @@ h1, h2 {
     color: #ff6600;
 }
 
-/* TASK 3: CSS Grid (Бет құрылымы үшін макет) */
 .page-grid-layout {
     display: grid;
     grid-template-areas: "sidebar main";
@@ -118,7 +115,6 @@ h1, h2 {
     padding: 0 15px;
 }
 
-/* TASK 4: Суреттер галереясы (Grid) */
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
